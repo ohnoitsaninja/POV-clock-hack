@@ -25,7 +25,7 @@ static uint8_t scrollDir = 0;
 */
 bool gplaying = false;
 uint16_t gtime = 0;
- static char cText[64] = "  Conway'sGameOfLife!";//"I love you Ashley :)";//"0123456789abcdefghij";//"hey /r/arduino";
+ static char cText[64] = "  Conway'sGameOfLife!";
 void setup() {
 //  cText[] = "hey /r/arduino";
   clearBuffer();
